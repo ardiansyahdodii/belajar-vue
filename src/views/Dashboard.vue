@@ -1,5 +1,5 @@
 <template>
     <div>
-        Dashboard
+        Belajar Vue JS
     </div>
 </template>

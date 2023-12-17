@@ -1,16 +1,32 @@
 <template>
   <div>
-    <div>
-      <RouterLink to="/">Dashboard</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
+    <Navbar />
+    <div class="content">
       <RouterView />
     </div>
   </div>
 </template>
 
 <script>
-
+import Navbar from './components/Navbar.vue';
+export default {
+  components: {
+    Navbar
+  }
+}
 </script>
+
+<style>
+body{
+  margin: 0;
+  padding: 0;
+}
+.content{
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+</style>
 
 
 

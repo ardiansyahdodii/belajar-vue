@@ -1,5 +1,5 @@
 <template>
     <div>
-        About
+        Ini halaman About
     </div>
 </template>
