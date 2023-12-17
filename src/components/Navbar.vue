@@ -2,6 +2,7 @@
     <div class="navbar">
         <RouterLink to="/">Dashboard</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/user">User</RouterLink>
     </div>
 </template>
 
