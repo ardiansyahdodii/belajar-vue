@@ -1,8 +1,26 @@
 <template>
   <div>
+    <div>
+      <RouterLink to="/">Dashboard</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+      <RouterView />
+    </div>
+  </div>
+</template>
+
+<script>
+
+</script>
+
+
+
+
+
+
+<!-- <template>
+  <div>
     <Student @response="showData" studentName="Dodi" />
     <Student @response="(select) => selectedStudent = select" studentName="Ardiansyah" />
-
     <div>
       Student dipilih : {{ selectedStudent }}
     </div>
@@ -27,7 +45,7 @@ export default {
   }
 }
 
-</script>
+</script> -->
 
 <!-- <style scoped>
 </style> -->
