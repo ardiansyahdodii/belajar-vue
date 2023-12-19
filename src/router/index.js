@@ -6,6 +6,7 @@ import UserDetailView from "../views/user/UserDetail.vue"
 import UserPostView from "../views/user/UserPost.vue"
 import UserProfileView from "../views/user/UserProfile.vue"
 import UserIndexView from "../views/user/UserIndex.vue"
+import PiniaView from "../views/Pinia.vue"
 
 const routes = [
     {
@@ -37,6 +38,10 @@ const routes = [
                 component: UserProfileView
             }
         ]
+    },
+    {
+        path: "/pinia",
+        component: PiniaView
     },
     // {
     //     path: "/user/:name/posts",
